@@ -1,0 +1,9 @@
+name = "9th Battalion - Aux Mod";
+author = "9th Batt Aux";
+action = "https://discord.gg/AmM2DngD9e";
+actionName = "Discord";
+logoSmall = "";
+logo = "";
+logoOver = "";
+picture = "";
+version = 0.1;
