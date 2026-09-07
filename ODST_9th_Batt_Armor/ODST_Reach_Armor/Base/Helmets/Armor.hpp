@@ -3,7 +3,7 @@ class CfgWeapons
     class CH252D_Helmet;
     class HeadgearItem;
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////              Command              /////////////////////////////////////
+    ///////////////////////////            Base Armor             /////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     class b9_base_helm_reach: CH252D_Helmet
     {
@@ -50,5 +50,56 @@ class CfgWeapons
             };
         };
     };
+
+     ///////////////////////////////////////////////////////////////////////////////////////////////////
+     ////////////////////////////////////          Frozen          /////////////////////////////////////
+     ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+     class b9_frozen_helm_reach: b9_base_helm_reach
+{
+    scope = 2;
+    author = "9th Batt Aux Team";
+    displayName = "[B9] Frozen Helmet";
+
+    hiddenSelectionsTextures[] =
+    {
+        "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Helmets\b9_frozen_helm_reach_co.paa",
+        "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Visor_CO.paa",
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+    };
 };
      ///////////////////////////////////////////////////////////////////////////////////////////////////
+     ////////////////////////////////////           Soot           /////////////////////////////////////
+     ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+     class b9_soot_helm_reach: b9_base_helm_reach
+{
+    scope = 2;
+    author = "9th Batt Aux Team";
+    displayName = "[B9] Soot Helmet";
+
+    hiddenSelectionsTextures[] =
+    {
+        "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Helmets\b9_soot_helm_reach_co.paa",
+        "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Visor_CO.paa",
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+    };
+};
+     ///////////////////////////////////////////////////////////////////////////////////////////////////
+     ////////////////////////////////////           Lush           /////////////////////////////////////
+     ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+     class b9_lush_helm_reach: b9_base_helm_reach
+{
+    scope = 2;
+    author = "9th Batt Aux Team";
+    displayName = "[B9] Lush Helmet";
+
+    hiddenSelectionsTextures[] =
+    {
+        "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Helmets\b9_lush_helm_reach_co.paa",
+        "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Visor_CO.paa",
+        "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+    };
+};
+};
