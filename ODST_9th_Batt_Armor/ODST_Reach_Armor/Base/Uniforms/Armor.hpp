@@ -12,6 +12,7 @@ class CfgWeapons
         scopeArsenal = 2;
         author = "9th Batt Aux Team";
         displayName = "[9B] Base Armor";
+
         class ItemInfo
         {
             containerClass = "Supply150";
