@@ -3,15 +3,15 @@ class CfgWeapons
     class MA_Marine_BDU_ODST_HJ_NC;
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////              Base              //////////////////////////////////////
+    /////////////////////////////            Cocytus             //////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
 
-    class b9_base_uniform_reach : MA_Marine_BDU_ODST_HJ_NC
+    class b9_cocytus_uniform_reach : MA_Marine_BDU_ODST_HJ_NC
     {
         scope = 2;
         scopeArsenal = 2;
         author = "9th Batt Aux Team";
-        displayName = "[9B] Base Armor";
+        displayName = "[9B] Cocytus Armor";
 
         class ItemInfo
         {
@@ -21,7 +21,7 @@ class CfgWeapons
             scope = 0;
             type = 801;
 
-            uniformClass = "b9_base_armor_reach";
+            uniformClass = "b9_cocytus_armor_reach";
 
             uniformModel = "-";
             uniformType = "Neopren";
@@ -119,35 +119,25 @@ class CfgWeapons
 class CfgVehicles {
     class MA_Marine_ODST_BDU_HJ_NC;
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////              Base              //////////////////////////////////////
+    /////////////////////////////            Cocytus             //////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    class b9_base_armor_reach: MA_Marine_ODST_BDU_HJ_NC{
+    class b9_cocytus_armor_reach: MA_Marine_ODST_BDU_HJ_NC{
         scope = 2;
         scopeCurator = 2;
-        displayName = "[9B] Base Armor";
+        displayName = "[9B] Cocytus Armor";
 
-    hiddenSelections[] =
-    {
-        "Camo1",
-        "Camo2",
-        "Camo3",
-        "Camo4",
-        "Camo5",
-        "Camo6",
-        "Camo7",
-        "Camo8",
-        "Camo9",
-        "Camo10",
-        "Uni_Upper",
-        "Uni_Lower",
-        "Uni_Collar",
-        "Armor_Underpad",
-        "Armor_Straps",
-        "Armor_Upper",
-        "Armor_Lower",
-        "Shoulders_Lower1",
-        "Shoulders_Lower2",
-        "Shoulders_Upper"
+
+        hiddenSelectionsTextures[] = {
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Uniforms\Cocytus\b9_cocytus_armor_reach_upper_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Uniforms\Cocytus\b9_cocytus_armor_reach_lower_co.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Base_TrooperCollar_CO.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Uniforms\Cocytus\b9_cocytus_armor_reach_soft_padding_co.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Uniforms\Cocytus\b9_cocytus_armor_reach_upper_armor_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Uniforms\Cocytus\b9_cocytus_armor_reach_lower_armor_co.paa",
+            "",
+            "",
+            ""
         };
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////

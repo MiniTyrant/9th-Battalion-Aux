@@ -3,13 +3,13 @@ class CfgWeapons
     class CH252D_Helmet;
     class HeadgearItem;
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    ///////////////////////////            Base Armor             /////////////////////////////////////
+    ////////////////////////////             Cocytus             //////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     class b9_base_helm_reach: CH252D_Helmet
     {
         scope = 2;
         author = "9th Batt Aux Team";
-        displayName = "[9B] Base Helmet";
+        displayName = "[9B] Cocytus Helmet";
         model = "MA_Armor\data\Helmets\Human_ODST\Reach_ODST_Helm.p3d";
         picture = "";
         hiddenSelections[] =
@@ -20,7 +20,7 @@ class CfgWeapons
         };
         hiddenSelectionsTextures[] =
         {
-            "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Helmet_CO.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Base\Helmets\b9_cocytus1_helm_reach_co.paa",
             "MA_Armor\data\Helmets\Human_ODST\Color_Variants\MA_ODST_Visor_CO.paa",
             "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
         };
