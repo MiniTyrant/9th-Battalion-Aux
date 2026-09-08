@@ -14,11 +14,17 @@ class CfgPatches
         };
         units[] = 
         {
-            "b9_base_armor_reach"
+            "b9_base_armor_reach",
+            "b9_lush_armor_reach",
+            "b9_frozen_armor_reach",
+            "b9_soot_armor_reach"
         };
         weapons[] =
         {
-        
+            "b9_base_uniform_reach",
+            "b9_lush_uniform_reach",
+            "b9_frozen_uniform_reach",
+            "b9_soot_uniform_reach"
         };
     };
 };

@@ -9,7 +9,7 @@ class CfgWeapons
     {
         scope = 2;
         author = "9th Batt Aux Team";
-        displayName = "[B9] Base Helmet";
+        displayName = "[9B] Base Helmet";
         model = "MA_Armor\data\Helmets\Human_ODST\Reach_ODST_Helm.p3d";
         picture = "";
         hiddenSelections[] =
@@ -59,7 +59,7 @@ class CfgWeapons
 {
     scope = 2;
     author = "9th Batt Aux Team";
-    displayName = "[B9] Frozen Helmet";
+    displayName = "[9B] Frozen Helmet";
 
     hiddenSelectionsTextures[] =
     {
@@ -76,7 +76,7 @@ class CfgWeapons
 {
     scope = 2;
     author = "9th Batt Aux Team";
-    displayName = "[B9] Soot Helmet";
+    displayName = "[9B] Soot Helmet";
 
     hiddenSelectionsTextures[] =
     {
@@ -93,7 +93,7 @@ class CfgWeapons
 {
     scope = 2;
     author = "9th Batt Aux Team";
-    displayName = "[B9] Lush Helmet";
+    displayName = "[9B] Lush Helmet";
 
     hiddenSelectionsTextures[] =
     {
