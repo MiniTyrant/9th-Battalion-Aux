@@ -1,0 +1,18 @@
+#include "Armor.hpp"
+
+class CfgPatches
+{
+    class odst_9th_batt_facewear
+    {
+        author = "9th Batt Aux Team";
+        name = "9th Circle Battalion - Facewear";
+        requiredVersion = 2.14;
+        requiredAddons[] =
+        {
+            "MA_Armor"
+        };
+
+        units[] = {};
+        weapons[] = {};
+    };
+};
