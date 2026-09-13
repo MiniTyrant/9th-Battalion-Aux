@@ -2,6 +2,7 @@ class CfgWeapons
 {
     class MA_Mjolnir_HR_EOD_Helmet;
     class CH252D_Helmet;
+    class MA_Recon_Helmet_Gray;
     class HeadgearItem;
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////          Scale          /////////////////////////////////////
@@ -49,6 +50,29 @@ class CfgWeapons
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_tacl_helm_reach_co.paa",
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_tacl_visor_reach_co.paa",
             "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+        };
+    };
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////          Crunch          /////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+        class b9_crunch_helm_reach: MA_Recon_Helmet_Gray
+    {
+        scope = 2;
+        author = "9th Batt Aux Team";
+        displayName = "[9B] Crunch Helmet";
+        model = "MA_Armor\data\Helmets\Recon\Recon_Helmet.p3d";
+
+        hiddenSelections[] = 
+        {
+            "Camo1",
+            "Camo2"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_crunch_helm_reach_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_crunch_visor_reach_co.paa"
         };
     };
 };
