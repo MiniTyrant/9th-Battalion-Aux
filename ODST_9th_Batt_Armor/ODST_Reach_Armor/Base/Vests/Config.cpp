@@ -14,7 +14,11 @@ class CfgPatches
         };
         units[] = 
         {
-            "b9_base_vest_reach"
+            "b9_cocytus_vest_reach",
+            "b9_lush_vest_reach",
+            "b9_frozen_vest_reach",
+            "b9_soot_vest_reach"
+
         };
         weapons[] =
         {

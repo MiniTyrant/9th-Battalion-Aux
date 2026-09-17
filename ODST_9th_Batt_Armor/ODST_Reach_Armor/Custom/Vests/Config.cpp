@@ -14,7 +14,9 @@ class CfgPatches
         };
         units[] = 
         {
-            "b9_scale_vest_reach"
+            "b9_scale_vest_reach",
+            "b9_tacl_vest_reach",
+            "b9_crunch_vest_reach"
         };
         weapons[] =
         {

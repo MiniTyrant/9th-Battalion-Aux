@@ -14,7 +14,10 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "b9_base_lr"
+            "b9_cocytus_lr",
+            "b9_lush_lr",
+            "b9_frozen_lr",
+            "b9_soot_lr"
         };
     };
 };

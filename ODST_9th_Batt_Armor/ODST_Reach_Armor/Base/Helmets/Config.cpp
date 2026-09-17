@@ -14,7 +14,10 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "b9_base_helm_reach"
+            "b9_cocytus_helm_reach",
+            "b9_frozen_helm_reach",
+            "b9_soot_helm_reach",
+            "b9_lush_helm_reach"
         };
     };
 };

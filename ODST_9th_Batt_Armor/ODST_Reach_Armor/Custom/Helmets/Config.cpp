@@ -14,7 +14,9 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "b9_scale_helm_reach"
+            "b9_scale_helm_reach",
+            "b9_tacl_helm_reach",
+            "b9_crunch_helm_reach"
         };
     };
 };
