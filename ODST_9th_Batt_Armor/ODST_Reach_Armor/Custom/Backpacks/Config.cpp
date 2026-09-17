@@ -14,7 +14,8 @@ class CfgPatches
         units[] = {};
         weapons[] =
         {
-            "b9_tacl_lr"
+            "b9_tacl_lr",
+            "b9_bishop_lr"
         };
     };
 };
