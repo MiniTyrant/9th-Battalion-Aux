@@ -106,6 +106,7 @@ class CfgWeapons
         "LegPouchR" };
 
             mass = 100;
+            containerClass = "Supply200";
 
             class HitpointsProtectionInfo
             {
@@ -232,6 +233,7 @@ class CfgWeapons
         "LegPouchR" };
 
             mass = 100;
+            containerClass = "Supply200";
 
             class HitpointsProtectionInfo
             {
@@ -357,6 +359,7 @@ class CfgWeapons
         "LegPouchR" };
 
             mass = 100;
+            containerClass = "Supply200";
 
             class HitpointsProtectionInfo
             {
@@ -481,6 +484,7 @@ class CfgWeapons
         "LegPouchR" };
 
             mass = 100;
+            containerClass = "Supply200";
 
             class HitpointsProtectionInfo
             {
