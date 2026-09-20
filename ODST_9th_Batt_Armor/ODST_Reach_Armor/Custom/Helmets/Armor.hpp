@@ -75,4 +75,29 @@ class CfgWeapons
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_crunch_visor_reach_co.paa"
         };
     };
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////          Bishop          /////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+        class b9_bishop_helm_reach: CH252D_Helmet
+    {
+        scope = 2;
+        author = "9th Batt Aux Team";
+        displayName = "[9B] Bishop Helmet";
+        model = "MA_Armor\data\Helmets\Human_ODST\Reach_ODST_Helm.p3d";
+
+        hiddenSelections[] = 
+        {
+            "Camo1",
+            "Camo2",
+            "Camo3"
+        };
+
+        hiddenSelectionsTextures[] =
+        {
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_bishop_helm_reach_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_bishop_visor_reach_co.paa",
+            "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
+        };
+    };
 };
