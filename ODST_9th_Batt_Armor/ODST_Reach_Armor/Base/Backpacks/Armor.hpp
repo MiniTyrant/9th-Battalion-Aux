@@ -21,7 +21,7 @@ class CfgVehicles {
         tf_range = 7000;
         tf_dialog = "rt1523g_radio_dialog";
         tf_encryptionCode = "tf_west_radio_code";
-        maximumLoad = 400;
+        maximumLoad = 600;
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////////////              Lush              //////////////////////////////////////
@@ -44,7 +44,7 @@ class CfgVehicles {
         tf_range = 7000;
         tf_dialog = "rt1523g_radio_dialog";
         tf_encryptionCode = "tf_west_radio_code";
-        maximumLoad = 400;
+        maximumLoad = 600;
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////////////             Frozen             //////////////////////////////////////
@@ -67,7 +67,7 @@ class CfgVehicles {
         tf_range = 7000;
         tf_dialog = "rt1523g_radio_dialog";
         tf_encryptionCode = "tf_west_radio_code";
-        maximumLoad = 400;
+        maximumLoad = 600;
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     /////////////////////////////              Soot              //////////////////////////////////////
@@ -90,6 +90,6 @@ class CfgVehicles {
         tf_range = 7000;
         tf_dialog = "rt1523g_radio_dialog";
         tf_encryptionCode = "tf_west_radio_code";
-        maximumLoad = 400;
+        maximumLoad = 600;
     };
 };
