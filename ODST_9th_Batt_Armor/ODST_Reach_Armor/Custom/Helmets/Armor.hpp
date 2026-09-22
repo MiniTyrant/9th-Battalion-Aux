@@ -120,7 +120,7 @@ class CfgWeapons
 
         hiddenSelectionsTextures[] =
         {
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_bishop_helm_reach_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_envy_helm_reach_co.paa",
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_envy_visor_co.paa",
             "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
         };

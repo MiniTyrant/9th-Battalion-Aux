@@ -17,14 +17,16 @@ class CfgPatches
             "b9_scale_armor_reach",
             "b9_tacl_armor_reach",
             "b9_crunch_armor_reach",
-            "b9_bishop_armor_reach"
+            "b9_bishop_armor_reach",
+            "b9_envy_armor_reach"
         };
         weapons[] =
         {
             "b9_scale_uniform_reach",
             "b9_tacl_uniform_reach",
             "b9_crunch_uniform_reach",
-            "b9_bishop_uniform_reach"
+            "b9_bishop_uniform_reach",
+            "b9_envy_uniform_reach"
         };
     };
 };
