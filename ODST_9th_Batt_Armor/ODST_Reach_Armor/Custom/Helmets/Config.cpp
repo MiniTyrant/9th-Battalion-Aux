@@ -17,7 +17,8 @@ class CfgPatches
             "b9_scale_helm_reach",
             "b9_tacl_helm_reach",
             "b9_crunch_helm_reach",
-            "b9_envy_helm_reach"
+            "b9_envy_helm_reach",
+            "b9_wrath_helm_reach"
         };
     };
 };

@@ -15,7 +15,8 @@ class CfgPatches
         weapons[] =
         {
             "b9_tacl_lr",
-            "b9_bishop_lr"
+            "b9_bishop_lr",
+            "b9_wrath_lr"
         };
     };
 };

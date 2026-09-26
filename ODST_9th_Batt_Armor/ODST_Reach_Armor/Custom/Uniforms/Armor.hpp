@@ -3,7 +3,7 @@ class CfgWeapons
     class MA_Marine_BDU_ODST_HJ_NC;
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////            Tacl             ////////////////////////////////////////
+    /////////////////////////////            Tacl             /////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
 
     class b9_tacl_uniform_reach : MA_Marine_BDU_ODST_HJ_NC
@@ -103,7 +103,7 @@ class CfgWeapons
         };
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////            Envy             ///////////////////////////////////////
+    /////////////////////////////            Envy             /////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
 
     class b9_envy_uniform_reach : MA_Marine_BDU_ODST_HJ_NC
@@ -127,6 +127,31 @@ class CfgWeapons
             uniformType = "Neopren";
         };
     };
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////            Wrath             /////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+
+    class b9_wrath_uniform_reach : MA_Marine_BDU_ODST_HJ_NC
+    {
+        scope = 2;
+        scopeArsenal = 2;
+        author = "9th Batt Aux Team";
+        displayName = "[9B] Wrath Armor";
+
+        class ItemInfo
+        {
+            containerClass = "Supply150";
+            mass = 10;
+            modelSides[] = {6};
+            scope = 0;
+            type = 801;
+
+            uniformClass = "b9_wrath_armor_reach";
+
+            uniformModel = "-";
+            uniformType = "Neopren";
+        };
+    };
 };
 
     ///////////////////////////////////////////////////////////////////////////////////////////////////
@@ -139,7 +164,7 @@ class CfgWeapons
 class CfgVehicles {
     class MA_Marine_ODST_BDU_HJ_NC;
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////            Tacl             ////////////////////////////////////////
+    /////////////////////////////            Tacl             /////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     class b9_tacl_armor_reach: MA_Marine_ODST_BDU_HJ_NC{
         scope = 2;
@@ -227,7 +252,7 @@ class CfgVehicles {
         };
     };
     ///////////////////////////////////////////////////////////////////////////////////////////////////
-    /////////////////////////////            Envy             ///////////////////////////////////////
+    /////////////////////////////            Envy             /////////////////////////////////////////
     ///////////////////////////////////////////////////////////////////////////////////////////////////
     class b9_envy_armor_reach: MA_Marine_ODST_BDU_HJ_NC{
         scope = 2;
@@ -243,6 +268,28 @@ class CfgVehicles {
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_upper_co.paa",
             "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_lower_armor_co.paa",
+            "",
+            "",
+            ""
+        };
+    };
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    /////////////////////////////            Wrath             ////////////////////////////////////////
+    ///////////////////////////////////////////////////////////////////////////////////////////////////
+    class b9_wrath_armor_reach: MA_Marine_ODST_BDU_HJ_NC{
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "[9B] Wrath Armor";
+
+
+        hiddenSelectionsTextures[] = {
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Wrath\b9_wrath_armor_reach_upper_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Wrath\b9_wrath_armor_reach_lower_co.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Base_TrooperCollar_CO.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Wrath\b9_wrath_armor_reach_soft_padding_co.paa",
+            "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Wrath\b9_wrath_armor_reach_upper_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Wrath\b9_wrath_armor_reach_lower_armor_co.paa",
             "",
             "",
             ""
