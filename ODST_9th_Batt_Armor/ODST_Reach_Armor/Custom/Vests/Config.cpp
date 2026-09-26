@@ -16,7 +16,11 @@ class CfgPatches
         {
             "b9_scale_vest_reach",
             "b9_tacl_vest_reach",
-            "b9_crunch_vest_reach"
+            "b9_crunch_vest_reach",
+            "b9_bishop_vest_reach",
+            "b9_envy_vest_reach",
+            "b9_wrath_vest_reach",
+            "b9_sloth_vest_reach"
         };
         weapons[] =
         {

@@ -16,7 +16,8 @@ class CfgPatches
         {
             "b9_tacl_lr",
             "b9_bishop_lr",
-            "b9_wrath_lr"
+            "b9_wrath_lr",
+            "b9_sloth_lr"
         };
     };
 };
