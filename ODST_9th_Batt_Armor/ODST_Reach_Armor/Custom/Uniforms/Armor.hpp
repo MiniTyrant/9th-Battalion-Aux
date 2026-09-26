@@ -261,13 +261,13 @@ class CfgVehicles {
 
 
         hiddenSelectionsTextures[] = {
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_upper_co.paa",
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_lower_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Envy\b9_envy_armor_reach_upper_armor_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Envy\b9_envy_armor_reach_lower_co.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\MA_Base_TrooperCollar_CO.paa",
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_soft_padding_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Envy\b9_envy_armor_reach_soft_padding_co.paa",
             "MA_Armor\data\Uniforms\Marine\data\Color_Variants\TrooperArmorStraps_CO.paa",
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_upper_co.paa",
-            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Bishop\b9_bishop_armor_reach_lower_armor_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Envy\b9_envy_armor_reach_upper_co.paa",
+            "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Uniforms\Envy\b9_envy_armor_reach_lower_armor_co.paa",
             "",
             "",
             ""
