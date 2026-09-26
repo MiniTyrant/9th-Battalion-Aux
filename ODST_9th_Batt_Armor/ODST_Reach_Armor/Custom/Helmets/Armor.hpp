@@ -140,7 +140,7 @@ class CfgWeapons
     {
         scope = 2;
         author = "9th Batt Aux Team";
-        displayName = "[9B] Wrath Helmet (Test)";
+        displayName = "[9B] Wrath Helmet";
         model = "MA_Armor\data\Helmets\Human_ODST\Reach_ODST_Helm.p3d";
 
         hiddenSelections[] = 
@@ -157,11 +157,11 @@ class CfgWeapons
             "MA_Armor\data\Attachments\Balaclava\Marine_Balaclava_CO.paa"
         };
 
-        //hiddenSelectionsMaterials[] =
-       // {
-       // "",
-       // "visor rvmat path here",
-      //  ""
-      //  };
+        hiddenSelectionsMaterials[] =
+        {
+        "",
+        "ODST_9th_Batt_Armor\ODST_Reach_Armor\Data\Custom\Helmets\b9_wrath_visor.rvmat",
+        ""
+        };
     };
 };
