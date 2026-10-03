@@ -20,7 +20,7 @@ class CfgPatches
             "b9_bishop_vest_reach",
             "b9_envy_vest_reach",
             "b9_wrath_vest_reach",
-            "b9_sloth_vest_reach".
+            "b9_sloth_vest_reach",
             "b9_nano_vest_reach"
         };
         weapons[] =
