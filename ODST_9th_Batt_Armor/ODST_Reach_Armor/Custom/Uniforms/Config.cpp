@@ -21,7 +21,8 @@ class CfgPatches
             "b9_envy_armor_reach",
             "b9_wrath_armor_reach",
             "b9_sloth_armor_reach",
-            "b9_nano_armor_reach"
+            "b9_nano_armor_reach",
+            "b9_kad_armor_reach"
         };
         weapons[] =
         {
@@ -32,7 +33,8 @@ class CfgPatches
             "b9_envy_uniform_reach",
             "b9_wrath_uniform_reach",
             "b9_sloth_uniform_reach",
-            "b9_nano_uniform_reach"
+            "b9_nano_uniform_reach",
+            "b9_kad_uniform_reach"
         };
     };
 };
